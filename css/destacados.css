@@ -1,0 +1,17 @@
+.destacados {
+    height: 192px;
+    background: url('../img/champi.png') no-repeat center / cover;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.destacados__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--blanco-100);
+    margin: 0;
+}
