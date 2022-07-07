@@ -1,0 +1,33 @@
+.encabezado__input {
+    display: none;
+}
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.encabezado__logo img {
+    width: 100px;
+    height: auto;
+}
+
+.encabezado__acceso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.encabezado__boton {
+    width: 133px;
+    height: 40px;
+    background: var(--blanco-100);
+    color: var(--azul-100);
+    border: 2px solid var(--azul-100);
+}
+
+.encabezado__btnlupa {
+    border: none;
+    background: none;
+}
