@@ -12,15 +12,15 @@
 .destacados__titulo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 22;
     color: var(--blanco-100);
     margin: 0;
 }
 .destacados__descripcion {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 14;
     color: var(--blanco-100);
 }
 .destacados__boton {
@@ -28,7 +28,7 @@
     height: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 14;
     background: var(--azul-100);
     color: var(--blanco-100);
     border: none;
