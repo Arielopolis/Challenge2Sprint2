@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/encabezado.css">
     <link rel="stylesheet" href="./css/destacados.css">
     <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/contacto.css">
 </head>
 
 <body>
@@ -175,8 +177,14 @@
             </div>
             <div class="contacto">
                 <h2 class="contacto__titulo">Hable con nosotros</h2>
-                <input type="text" class="contacto__nombre" placeholder="Nombre">
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="contacto__mensaje" placeholder="Deje su mensaje"></textarea>
+                <div class="contacto__campos">
+                    <label class="etiqueta">Nombre:</label>
+                    <input type="text" class="contacto__nombre caja">
+                    <div  class="contacto__campos">
+                        <label class="etiqueta">Deje su mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="contacto__mensaje caja"></textarea>
+                    </div>    
+                </div>
                 <button class="contacto__boton">Enviar mensaje</button>
             </div>
         </section>
