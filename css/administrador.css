@@ -38,6 +38,11 @@
 .card_imagen {
     width: calc(50vw - 24px);
 }
+.producto__eliminar,
+.producto__editar {
+    background: none;
+    border: none;
+}
 .card__titulo{
     font-size: 14;
     font-weight: 500;
