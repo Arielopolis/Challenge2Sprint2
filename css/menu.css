@@ -1,0 +1,25 @@
+.menu-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: var(--azul-10);
+    gap: 32px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+}
+.menu__opciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 16px;
+}
+.menu__enlaces {
+    text-decoration: none;
+    font-size: 16;
+    font-weight: 400;
+    color: var(--negro-100);
+}
