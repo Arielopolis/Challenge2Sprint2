@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 16px;
     padding-bottom: 16px;
 }
@@ -34,7 +35,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: calc(50vw - 24px);
+    width: calc(50vw - 33px);
 }
 .card_imagen {
     width: calc(50vw - 24px);
