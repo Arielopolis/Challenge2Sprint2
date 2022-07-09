@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Geek Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/encabezado.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <logo class="encabezado__logo"><img class="logo__imagen" src="./img/Logo.png" alt="logoAG"></logo>
+        <div class="encabezado__acceso">
+            <input class="encabezado__input" type="search" placeholder="¿Qué quieres buscar?">
+            <button class="encabezado__btnlupa"><img src="./img/lupa-negra.svg" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__campos">
+                <h2 class="login__titulo">Iniciar Sesion</h2>
+                <input type="text" class="login__input nombre" placeholder="Nombre">
+                <input type="text" class="login__input contraseña" placeholder="Correo electrónico">
+                <button class="login__boton">Entrar</button>
+            </div>
+        </section>
+        <section class="menu-contacto">
+            <div class="menu">
+                <img src="./img/Logo.png" alt="" class="menu__logo">
+                <nav class="menu__opciones">
+                    <a href="#" class="menu__enlaces">Quienes somos</a>
+                    <a href="#" class="menu__enlaces">Política de privacidad</a>
+                    <a href="#" class="menu__enlaces">Programa de fidelidad</a>
+                    <a href="#" class="menu__enlaces">Nuestras tiendas</a>
+                    <a href="#" class="menu__enlaces">Quiero ser franquiciado</a>
+                    <a href="#" class="menu__enlaces">Anúncie aquí</a>
+                </nav>
+            </div>
+            <div class="contacto">
+                <h2 class="contacto__titulo">Hable con nosotros</h2>
+                <div class="contacto__campos">
+                    <label class="etiqueta">Nombre:</label>
+                    <input type="text" class="contacto__nombre caja">
+                    <div  class="contacto__campos">
+                        <label class="etiqueta">Deje su mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="contacto__mensaje caja"></textarea>
+                    </div>    
+                </div>
+                <button class="contacto__boton">Enviar mensaje</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Desarrollado por Ariel Jacobi<br>&copy 2022</p>
+        <a class="footer__enlace" href="#">- Mi Portfolio -</a>
+    </footer>
+</body>
