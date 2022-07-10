@@ -35,13 +35,25 @@
     gap: 8px;
     width: calc(50vw - 49px);
 }
-.card_imagen {
-    width: calc(50vw - 24px);
+.card__imagen {
+    width: calc(50vw - 49px);
+}
+.campo__botones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: absolute;
+    margin: 8px;
+}
+.producto__campo {
+    display: flex;
+    justify-content: flex-end;
 }
 .producto__eliminar,
 .producto__editar {
     background: none;
     border: none;
+    color: var(--blanco-100);
 }
 .card__titulo{
     font-size: 14;
